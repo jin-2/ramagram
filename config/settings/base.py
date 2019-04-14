@@ -41,7 +41,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
 
 DATABASES = {
-    "default": env.db("DATABASE_URL", default="postgres:///k_drama_curation")
+    "default": env.db("DATABASE_URL", default="postgres://localhost:5433/kdrama")
 }
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
 
@@ -215,7 +215,7 @@ EMAIL_BACKEND = env(
 # Django Admin URL.
 ADMIN_URL = "admin/"
 # https://docs.djangoproject.com/en/dev/ref/settings/#admins
-ADMINS = [("""jay-j""", "jay-j@example.com")]
+ADMINS = [("""jay-j""", "jmakeaz@gmail.com")]
 # https://docs.djangoproject.com/en/dev/ref/settings/#managers
 MANAGERS = ADMINS
 
