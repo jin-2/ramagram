@@ -1,0 +1,5 @@
+[run]
+include = k_drama_curation/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
