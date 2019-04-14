@@ -73,6 +73,7 @@ THIRD_PARTY_APPS = [
 ]
 LOCAL_APPS = [
     "k_drama_curation.users.apps.UsersAppConfig",
+    "k_drama_curation.images.apps.ImagesConfig"
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
